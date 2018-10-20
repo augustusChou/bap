@@ -94,3 +94,4 @@ create table if not exists operation_user
 comment '用户表'
 ;
 
+INSERT INTO operation_user ( user_name, login_name, login_password, create_time, update_time) VALUES ( '测试', 'test', 'test', '2018-10-08 01:45:16', '2018-10-08 09:45:18');
